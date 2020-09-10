@@ -7,7 +7,7 @@ p {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
-  color: rgb(13, 168, 168)
+  color: rgb(85, 226, 226)
 }
 
 body {
@@ -16,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    /* background: rgb(121,116,198); */
+    background: linear-gradient(235deg, rgba(121,116,198,1) 0%, rgba(190,137,237,1) 47%, rgb(21, 103, 119) 100%);
 }
 
 p {
@@ -44,6 +46,7 @@ const randomColor = () => {
 }
 
 p.addEventListener('mouseover', () => randomColor());
+
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 1, 2020 00:00:00 GMT+1").getTime();
 
