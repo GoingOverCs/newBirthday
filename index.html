@@ -18,6 +18,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* background: rgb(121,116,198); */
     background: linear-gradient(235deg, rgba(121,116,198,1) 0%, rgba(190,137,237,1) 47%, rgb(21, 103, 119) 100%);
+    position: relative;
 }
 
 p {
@@ -27,12 +28,31 @@ p {
 a {
   text-decoration: none;
 }
+button {
+  position: absolute;
+  font-size: large;
+  color: white;
+  background-color: black;
+}
+
+.two {
+  top: 600px;
+  left:330px;
+}
+.three {
+  top: 600px;
+  left:480px;
+}
 </style>
 </head>
 <body>
 
-<a href="https://www.familyfriendpoems.com/poem/finding-hope" target="_blank"><p id="demo"></p>
+<a href="https://www.youtube.com/watch?v=iTYCRRix-eY" target="_blank"><p id="demo"></p>
 </a>
+
+
+<a href="https://www.youtube.com/watch?v=jNiKU4-ybBc" target="_blank"><button class="two">Second Thing</button></a>
+<a href="https://www.youtube.com/watch?v=z_mhFOyLQBg" target="_blank"><button class="three">Third Thing</button></a>
 <script>
 
 const p = document.querySelector('p')
