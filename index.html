@@ -48,7 +48,7 @@ button {
 </head>
 <body>
 
-<a href="https://www.reddit.com/r/kittengifs/top/?t=all" target="_blank"><p id="demo"></p>
+<a href="https://www.reddit.com/r/MiniatureSchnauzer/top/?t=all" target="_blank"><p id="demo"></p>
 </a>
 
 <!-- figure out how to media query for  mobile -->
@@ -69,7 +69,7 @@ const randomColor = () => {
 p.addEventListener('mouseover', () => randomColor());
 
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 1, 2020 00:00:00 GMT+1").getTime();
+var countDownDate = new Date("Dec 1, 2020 00:00:00 GMT").getTime();
 
 
 // Update the count down every 1 second
@@ -93,7 +93,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = " <a href=\"./birthday.html\">Click here to open your first present!</a>";
+    document.getElementById("demo").innerHTML = " <a href=\"https://goingovercs.github.io/December1st/\">Click here to open your first present!</a>";
   }
 }, 1000);
 </script>
